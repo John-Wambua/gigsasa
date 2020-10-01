@@ -1,0 +1,6 @@
+.bkg-section{
+    background-image: url("../img/banner.jpeg");
+    mix-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
