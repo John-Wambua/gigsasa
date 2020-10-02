@@ -7,11 +7,12 @@ const Header=()=>{
     return(
 
 
-        <div  className={"ui secondary menu "}>
 
+        <div  className={"ui secondary menu "}>
             <Link to={"/"} className="item">
-                <img src="img/gigsasa_logo.png" alt="Gigsasa logo" className="logo" width="180"/>
+                <img style={ { width: '150px',margin: '3px 0' }} src="img/gigsasa_logo.png" alt="Gigsasa logo" className="logo"/>
             </Link>
+
 
             <div className={"ui right item bkg-section"}>
                 <div className="item my_dropdown">

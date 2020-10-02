@@ -1,149 +1,74 @@
 import React from "react";
+import {Zoom} from "react-reveal";
 
 const Footer =()=>{
     return (
-        <footer className="page-footer font-small stylish-color-dark pt-4">
-
-            <div className="container text-center text-md-left">
-
-                <div className="row">
-
-                    <div className="col-md-4 mx-auto">
-
-                        <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
-                        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit
-                            amet,
-                            consectetur
-                            adipisicing elit.</p>
-
+        
+        <footer class="row site-footer">
+            <Zoom>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h6>About</h6>
+                        <p className={"text-justify"}>GigSasa is a (r)evolutionary  HRM platform that empowers enterprises to simplify HR across the entire employee lifecycle From automation of  day-to-day HR processes, simplifies human interactions, delivers actionable insights to build better workplaces to achieving their strategic HR goals faster and smarter.</p>
                     </div>
 
-                    <hr className="clearfix w-100 d-md-none"/>
+                    <div class="col-xs-6 col-md-3">
+                        <h6>Services</h6>
+                        <ul class="footer-links">
+                            <li><a href="#">Time Tracking & Attendance </a></li>
+                            <li><a href="#">Performance Management</a></li>
+                            <li><a href="#">Payroll services</a></li>
+                            <li><a href="#">Workforce Management</a></li>
+                        </ul>
+                    </div>
 
-                        <div className="col-md-2 mx-auto">
-
-                         {/*links*/}
-                            <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-                            <ul className="list-unstyled">
-                                <li>
-                                    <a href="#!">Link 1</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Link 2</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Link 3</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Link 4</a>
-                                </li>
-                            </ul>
-
-                        </div>
-                      {/*column*/}
-
-                        <hr className="clearfix w-100 d-md-none"/>
-
-                            {/*column*/}
-                            <div className="col-md-2 mx-auto">
-
-                                {/*links*/}
-                                <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-                                <ul className="list-unstyled">
-                                    <li>
-                                        <a href="#!">Link 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!">Link 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!">Link 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!">Link 4</a>
-                                    </li>
-                                </ul>
-
-                            </div>
-                        {/*column*/}
-
-                            <hr className="clearfix w-100 d-md-none"/>
-
-                                {/*column*/}
-                                <div className="col-md-2 mx-auto">
-
-                                    {/*links*/}
-                                    <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-                                    <ul className="list-unstyled">
-                                        <li>
-                                            <a href="#!">Link 1</a>
-                                        </li>
-                                        <li>
-                                            <a href="#!">Link 2</a>
-                                        </li>
-                                        <li>
-                                            <a href="#!">Link 3</a>
-                                        </li>
-                                        <li>
-                                            <a href="#!">Link 4</a>
-                                        </li>
-                                    </ul>
-
-                                </div>
-                    {/*column*/}
+                    <div class="col-xs-6 col-md-3">
+                        <h6>Legal</h6>
+                        <ul class="footer-links">
+                            <li><a href="#">Privacy Policy </a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Payroll services</a></li>
+                            <li><a href="#">Workforce Management</a></li>
+                        </ul>
+                    </div>
                 </div>
-             {/*row*/}
 
-            </div>
-            {/*links*/}
 
-            <hr/>
+                <div className="row justify-content-center">
 
-                <ul className="list-unstyled list-inline text-center py-2">
-                    <li className="list-inline-item">
-                        <h5 className="mb-1">Register for free</h5>
-                    </li>
-                    <li className="list-inline-item">
-                        <a href="#!" className="btn btn-danger btn-rounded">Sign up!</a>
-                    </li>
-                </ul>
-                <hr/>
+                    <ul className="social-icons">
 
-                    <ul className="list-unstyled list-inline text-center">
-                        <li className="list-inline-item">
-                            <a className="btn-floating btn-fb mx-1">
-                                <i className="fab fa-facebook-f"> </i>
-                            </a>
-                        </li>
-                        <li className="list-inline-item">
-                            <a className="btn-floating btn-tw mx-1">
-                                <i className="fab fa-twitter"> </i>
-                            </a>
-                        </li>
-                        <li className="list-inline-item">
-                            <a className="btn-floating btn-gplus mx-1">
-                                <i className="fab fa-google-plus-g"> </i>
-                            </a>
-                        </li>
-                        <li className="list-inline-item">
-                            <a className="btn-floating btn-li mx-1">
-                                <i className="fab fa-linkedin-in"> </i>
-                            </a>
-                        </li>
-                        <li className="list-inline-item">
-                            <a className="btn-floating btn-dribbble mx-1">
-                                <i className="fab fa-dribbble"> </i>
-                            </a>
-                        </li>
+                        <li><a className="facebook" href="#"><i className="fab fa-facebook"></i></a></li>
+                        <li><a className="twitter" href="#"><i className="fab fa-twitter"></i></a></li>
+                        <li><a className="dribbble" href="#"><i className="fab fa-dribbble"></i></a></li>
+                        <li><a className="linkedin" href="#"><i className="fab fa-linkedin"></i></a></li>
                     </ul>
+                </div>
+                <hr/>
+            </div>
 
-                    <div className="footer-copyright text-center py-3">© 2020 Copyright:
-                        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+
+
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-8 col-sm-6 col-lg-6">
+                        <p className="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+                            <a href="#">GigSasa Ltd.</a>.
+                        </p>
                     </div>
 
+                    <div className="col-md-8 col-sm-6 col-lg-6">
+                        <a href="/cookie-policy.php">Cookie Policy </a>
+                        <a href="#"> | </a>
+                        <a href="/privacy-policy.php"> Privacy Policy </a>
+                        <a href="#"> | </a>
+                        <a href="/terms-of-use.php"> Terms of Use</a>
+                    </div>
+
+                </div>
+            </div>
+            </Zoom>
         </footer>
     )
 }

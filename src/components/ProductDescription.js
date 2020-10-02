@@ -1,11 +1,14 @@
 import React from "react";
+import {Rotate} from 'react-reveal'
+
 import ScheduleButton from "./partials/ScheduleButton";
 import ProdDescription from "./partials/ProdDescription";
 
 const ProductDescription = ()=>{
     return (
         <div className="border-bottom border-light text-center">
-            <h1 style={{marginTop: '25px', fontFamily: '\'Rubik\', sans-serif', fontSize: '2.5rem'}}>The simplest timesheet app for small businesses </h1>
+            <h1 style={{marginTop: '25px', fontFamily: '\'Secular One\', sans-serif'}}>The simplest timesheet app for small businesses </h1>
+            <Rotate top left>
             <div className="row">
                 <ProdDescription
                     title={"Simple Time Tracking"}
@@ -24,11 +27,15 @@ const ProductDescription = ()=>{
                 />
 
             </div>
+            </Rotate>
             <div className="follow-through-icon">
                 <i className="follow-icon"></i>
             </div>
-            <h2 className="timesheet-title section-title">
-                You run your business. <br/> We’ll take care of your timesheets.</h2>
+            <br/>
+            <br/>
+            <h2 style={{fontFamily: '\'Fjalla One\', sans-serif'}} className="text-center">
+                You run your business. We’ll take care of your timesheets.</h2>
+            <br/>
             <ScheduleButton/>
 
         </div>

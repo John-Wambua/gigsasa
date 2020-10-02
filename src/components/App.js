@@ -10,6 +10,7 @@ import Demo from "./Demo";
 import Home from "./Home";
 import Header from "./Header";
 import Footer from "./Footer";
+import {Zoom} from "react-reveal";
 
 const App = ()=>{
     return(
